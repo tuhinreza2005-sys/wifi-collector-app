@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">WiFi Collector</string>
+    <string name="title_activity_main">WiFi Collector</string>
+    <string name="package_name">com.tuhinrezawi.collector</string>
+    <string name="custom_url_scheme">com.tuhinrezawi.collector</string>
+</resources>

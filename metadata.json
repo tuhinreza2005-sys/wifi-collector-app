@@ -1,0 +1,6 @@
+{
+  "name": "WiFi Collector – Smart Billing & Collection Manager",
+  "description": "Android WiFi Bill Collection & Management App for ISPs and bill collectors in Bengali. Track 500-1000 customers, monthly billing, offline payments, dues, and digital receipts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

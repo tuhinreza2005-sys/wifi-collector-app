@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Safe area insets for Android notch and navigation bar */
+:root {
+  --sat: env(safe-area-inset-top, 0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+  --sal: env(safe-area-inset-left, 0px);
+  --sar: env(safe-area-inset-right, 0px);
+}
+
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+.pb-safe {
+  padding-bottom: max(env(safe-area-inset-bottom, 0px), 12px);
+}
+
+/* Prevent text callouts and tap highlights on Android mobile */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
